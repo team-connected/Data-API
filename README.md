@@ -50,7 +50,7 @@ Implemented will be marked with :heavy_check_mark:
 * **timestamp**: Timestamp
 * **device_id**: Device used to measure
 * **nurse_id**: Nurse that measured
-* **value**: Value of the measure
+* **value**: List of values of the measure
 * **comment**: Optional comment
 
 #### Nurse
