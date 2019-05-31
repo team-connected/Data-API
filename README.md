@@ -29,7 +29,7 @@ Implemented will be marked with :heavy_check_mark:
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/email=[email] | Retrieve list of metrics of a patient |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/[searchField]=[searchTerm] | Retrieve a metric |
 | :heavy_check_mark: | POST | http://[hostname]/api/v1/metric/email=[email] | Create a metric |
-| | PUT | http://[hostname]/api/v1/metric/email=[email] | Update a metric |
+| | PUT | http://[hostname]/api/v1/metric/id=[id] | Update a metric |
 | | DELETE | http://[hostname]/api/v1/metric/email=[email] | Delete a metric |
 
 ### Nurse API
