@@ -19,8 +19,8 @@ Implemented will be marked with :heavy_check_mark:
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/patient/ | Retrieve list of patients |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/patient/[searchField]=[searchTerm] | Retrieve a patient |
 | :heavy_check_mark: | POST | http://[hostname]/api/v1/patient/ | Create a patient |
-| | PUT | http://[hostname]/api/v1/patient/email=[email] | Update a patient |
-| | DELETE | http://[hostname]/api/v1/patient/email=[email] | Delete a patient |
+| :heavy_check_mark: | PUT | http://[hostname]/api/v1/patient/email=[email] | Update a patient |
+| :heavy_check_mark: | DELETE | http://[hostname]/api/v1/patient/email=[email] | Delete a patient |
 
 
 ### Metric API
@@ -29,8 +29,8 @@ Implemented will be marked with :heavy_check_mark:
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/email=[email] | Retrieve list of metrics of a patient |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/[searchField]=[searchTerm] | Retrieve a metric |
 | :heavy_check_mark: | POST | http://[hostname]/api/v1/metric/email=[email] | Create a metric |
-| | PUT | http://[hostname]/api/v1/metric/id=[id] | Update a metric |
-| | DELETE | http://[hostname]/api/v1/metric/id=[id] | Delete a metric |
+| :heavy_check_mark: | PUT | http://[hostname]/api/v1/metric/id=[id] | Update a metric |
+| :heavy_check_mark: | DELETE | http://[hostname]/api/v1/metric/id=[id] | Delete a metric |
 
 ### Nurse API
 | Implemented | HTTP Method | URL | Action |
@@ -38,8 +38,8 @@ Implemented will be marked with :heavy_check_mark:
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/nurse/ | Retrieve list of nurses |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/nurse/[searchField]=[searchTerm] | Retrieve a nurse |
 | :heavy_check_mark: | POST | http://[hostname]/api/v1/nurse/ | Create a nurse |
-| | PUT | http://[hostname]/api/v1/nurse/email=[email] | Update a nurse |
-| | DELETE | http://[hostname]/api/v1/nurse/email=[email] | Delete a nurse |
+| :heavy_check_mark: | PUT | http://[hostname]/api/v1/nurse/email=[email] | Update a nurse |
+| :heavy_check_mark: | DELETE | http://[hostname]/api/v1/nurse/email=[email] | Delete a nurse |
 
 ### Device API
 | Implemented | HTTP Method | URL | Action |
@@ -47,8 +47,8 @@ Implemented will be marked with :heavy_check_mark:
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/device/ | Retrieve list of devices |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/device/[searchField]=[searchTerm] | Retrieve a device |
 | :heavy_check_mark: | POST | http://[hostname]/api/v1/device/ | Create a device |
-| | PUT | http://[hostname]/api/v1/device/sn=[serialNumber] | Update a device |
-| | DELETE | http://[hostname]/api/v1/device/sn=[serialNumber] | Delete a device |
+| :heavy_check_mark: | PUT | http://[hostname]/api/v1/device/sn=[serialNumber] | Update a device |
+| :heavy_check_mark: | DELETE | http://[hostname]/api/v1/device/sn=[serialNumber] | Delete a device |
 
 ### Fields
 #### Patient
