@@ -16,7 +16,7 @@ Implemented will be marked with :heavy_check_mark:
 ### Patient API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| | GET | http://[hostname]/api/v1/patient/ | Retrieve list of patients |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/patient/ | Retrieve list of patients |
 | | GET | http://[hostname]/api/v1/patient/[searchField]=[searchTerm] | Retrieve a patient |
 | | POST | http://[hostname]/api/v1/patient/ | Create a patient |
 | | PUT | http://[hostname]/api/v1/patient/email=[email] | Update a patient |
@@ -26,7 +26,7 @@ Implemented will be marked with :heavy_check_mark:
 ### Metric API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| | GET | http://[hostname]/api/v1/metric/email=[email] | Retrieve list of metrics of a patient |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/email=[email] | Retrieve list of metrics of a patient |
 | | GET | http://[hostname]/api/v1/metric/[searchField]=[searchTerm] | Retrieve a metric |
 | | POST | http://[hostname]/api/v1/metric/ | Create a metric |
 | | PUT | http://[hostname]/api/v1/metric/email=[email] | Update a metric |
@@ -35,7 +35,7 @@ Implemented will be marked with :heavy_check_mark:
 ### Nurse API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| | GET | http://[hostname]/api/v1/nurse/ | Retrieve list of nurses |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/nurse/ | Retrieve list of nurses |
 | | GET | http://[hostname]/api/v1/nurse/[searchField]=[searchTerm] | Retrieve a nurse |
 | | POST | http://[hostname]/api/v1/nurse/ | Create a nurse |
 | | PUT | http://[hostname]/api/v1/nurse/email=[email] | Update a nurse |
@@ -44,7 +44,7 @@ Implemented will be marked with :heavy_check_mark:
 ### Device API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| | GET | http://[hostname]/api/v1/device/ | Retrieve list of devices |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/device/ | Retrieve list of devices |
 | | GET | http://[hostname]/api/v1/device/[searchField]=[searchTerm] | Retrieve a device |
 | | POST | http://[hostname]/api/v1/device/ | Create a device |
 | | PUT | http://[hostname]/api/v1/device/email=[email] | Update a device |
