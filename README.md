@@ -75,7 +75,7 @@ Implemented will be marked with :heavy_check_mark:
 * **firstname**: Firstname
 * **lastname**: Lastname
 * **email**: E-Mail address
-* **depertment**: Department
+* **department**: Department
 
 #### Device
 * **_id**: Unique number
