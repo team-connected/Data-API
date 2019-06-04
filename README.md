@@ -16,9 +16,9 @@ Implemented will be marked with :heavy_check_mark:
 ### Patient API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| :heavy_check_mark: | GET | http://[hostname]/api/v1/patient | Retrieve list of patients |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/patient/ | Retrieve list of patients |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/patient/[searchField]=[searchTerm] | Retrieve a patient |
-| :heavy_check_mark: | POST | http://[hostname]/api/v1/patient | Create a patient |
+| :heavy_check_mark: | POST | http://[hostname]/api/v1/patient/ | Create a patient |
 | :heavy_check_mark: | PUT | http://[hostname]/api/v1/patient/id=[id] | Update a patient |
 | :heavy_check_mark: | DELETE | http://[hostname]/api/v1/patient/id=[id] | Delete a patient |
 
@@ -26,7 +26,7 @@ Implemented will be marked with :heavy_check_mark:
 ### Metric API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/id=[id] | Retrieve list of metrics of a patient |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/patient=[id] | Retrieve list of metrics of a patient |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/[searchField]=[searchTerm] | Retrieve a metric |
 | :heavy_check_mark: | POST | http://[hostname]/api/v1/metric/patient=[id] | Create a metric |
 | :heavy_check_mark: | PUT | http://[hostname]/api/v1/metric/id=[id] | Update a metric |
@@ -35,18 +35,18 @@ Implemented will be marked with :heavy_check_mark:
 ### Nurse API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| :heavy_check_mark: | GET | http://[hostname]/api/v1/nurse | Retrieve list of nurses |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/nurse/ | Retrieve list of nurses |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/nurse/[searchField]=[searchTerm] | Retrieve a nurse |
-| :heavy_check_mark: | POST | http://[hostname]/api/v1/nurse | Create a nurse |
+| :heavy_check_mark: | POST | http://[hostname]/api/v1/nurse/ | Create a nurse |
 | :heavy_check_mark: | PUT | http://[hostname]/api/v1/nurse/id=[id] | Update a nurse |
 | :heavy_check_mark: | DELETE | http://[hostname]/api/v1/nurse/id=[id] | Delete a nurse |
 
 ### Device API
 | Implemented | HTTP Method | URL | Action |
 | ------------- | ------------- | ------------- | ------------- |
-| :heavy_check_mark: | GET | http://[hostname]/api/v1/device | Retrieve list of devices |
+| :heavy_check_mark: | GET | http://[hostname]/api/v1/device/ | Retrieve list of devices |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/device/[searchField]=[searchTerm] | Retrieve a device |
-| :heavy_check_mark: | POST | http://[hostname]/api/v1/device | Create a device |
+| :heavy_check_mark: | POST | http://[hostname]/api/v1/device/ | Create a device |
 | :heavy_check_mark: | PUT | http://[hostname]/api/v1/device/sn=[serialNumber] | Update a device |
 | :heavy_check_mark: | DELETE | http://[hostname]/api/v1/device/sn=[serialNumber] | Delete a device |
 
@@ -83,3 +83,20 @@ Implemented will be marked with :heavy_check_mark:
 * **type**: Device type
 * **sn**: Serialnumber
 * **status**: Working/Maintenance/Unscaled
+
+## API Examples
+``` 
+curl -i -H "Content-Type: application/json" -X POST -d '{"firstname":"Jaap", "lastname":"Bakkers", "email":"jbakkers@outlook.com", "street":"Tolseweg 22", "city":"Berghem", "location":"3.120-3"}' http://umc-api.maartenmol.nl:5000/api/v1/patient/
+```
+```
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Microlife Watch BP O 3", "type":"bloeddrukmeters", "sn":"1234567890123", "status":"Working"}' http://umc-api.maartenmol.nl:5000/api/v1/device/
+```
+```
+curl -i -H "Content-Type: application/json" -X POST -d '{"firstname":"Hans", "lastname":"Janssen", "email":"hjanssen@umc.nl", "department":"IC"}' http://umc-api.maartenmol.nl:5000/api/v1/nurse/
+```
+```
+curl -i -H "Content-Type: application/json" -X POST -d '{"metric_type":"Bloeddruk", "timestamp":"2019-06-04T09:46:59+00:00", "device_id":"59ce02a3e87d42f3b467c161502c824e", "nurse_id":"98b415b75d8849d38be80521efa25d20", "value":"37.5", "comment":"This is a comment"}' http://umc-api.maartenmol.nl:5000/api/v1/metric/patient=697b76fa3c6b42a1ab4aa281c88e4227
+```
+```
+curl -i -H "Content-Type: application/json" -X POST -d '{"metric_type":"", "timestamp":"2019-06-04T09:46:59+00:00", "device_id":"59ce02a3e87d42f3b467c161502c824e", "nurse_id":"98b415b75d8849d38be80521efa25d20", "value":"", "comment":"This is a comment"}' http://umc-api.maartenmol.nl:5000/api/v1/metric/patient=697b76fa3c6b42a1ab4aa281c88e4227
+```

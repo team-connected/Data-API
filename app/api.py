@@ -5,20 +5,20 @@ from bson.json_util import dumps
 import json
 import uuid
 import os
+import pyfiglet
 
-#db_ip = os.getenv("db_ip", "Maarten-NB")
-#db_port = os.getenv("db_port", "27017")
 # Example URI: 'mongodb://host1,host2,host3', replicaSet='rs0'
 conUri = os.getenv("conUri", "localhost:27017")
 db_name = os.getenv("db_name", "EPD")
 
 #Print some usefull information to console
+ascii_banner = pyfiglet.figlet_format("UMC Data-API")
+print(ascii_banner)
 print("Starting API Server")
 print("API Server Version: V1.0")
-print("Developed by: Maarten Mol (All rights reserved)")
+print("Developed by: Haydn Felida, Jeroen Verkerk, Sam Zandee, Shaniah Arrias, Maarten Mol. (All rights reserved)")
 
 #Setup MongoDB Client
-#client = MongoClient(db_ip + ":" + db_port)
 client = MongoClient(conUri)
 db = client[db_name]
 
@@ -28,15 +28,15 @@ app = Flask(__name__)
 #Define error function for JSON error response
 @app.errorhandler(404)
 def not_found(error):
-    return make_response(jsonify({"error": "Not found"}), 404)
+    return make_response(jsonify({"error": "notFound"}), 404)
 
 #Define the root
 @app.route("/")
 def index():
-    return "Please use the V1 API! Developed by: Maarten Mol (All rights reserved)"
+    return "Please use the V1 API! Developed by: Haydn Felida, Jeroen Verkerk, Sam Zandee, Shaniah Arrias, Maarten Mol. (All rights reserved)"
 
 #Define GET PATIENTS
-@app.route("/api/v1/patient", methods=['GET'])
+@app.route("/api/v1/patient/", methods=['GET'])
 def get_patients():
     try:
         patient = db.Patient.find()
@@ -45,7 +45,7 @@ def get_patients():
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define GET NURSES
-@app.route("/api/v1/nurse", methods=['GET'])
+@app.route("/api/v1/nurse/", methods=['GET'])
 def get_nurses():
     try:
         nurse = db.Nurse.find()
@@ -54,7 +54,7 @@ def get_nurses():
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define GET DEVICES
-@app.route("/api/v1/device", methods=['GET'])
+@app.route("/api/v1/device/", methods=['GET'])
 def get_devices():
     try:
         device = db.Device.find()
@@ -63,7 +63,7 @@ def get_devices():
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define GET METRICS from a PATIENT
-@app.route('/api/v1/metric/id=<value>', methods=['GET'])
+@app.route('/api/v1/metric/patient=<value>', methods=['GET'])
 def get_metrics(value):
     try:
         if db.Patient.count_documents({ "_id" : value }, limit = 1) == 1:
@@ -124,7 +124,7 @@ def get_device(field, value):
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define CREATE PATIENT
-@app.route('/api/v1/patient', methods=['POST'])
+@app.route('/api/v1/patient/', methods=['POST'])
 def create_patient():
     try:
         data = json.loads(request.data)
@@ -152,7 +152,7 @@ def create_patient():
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define CREATE NURSE
-@app.route('/api/v1/nurse', methods=['POST'])
+@app.route('/api/v1/nurse/', methods=['POST'])
 def create_nurse():
     try:
         data = json.loads(request.data)
@@ -176,7 +176,7 @@ def create_nurse():
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define CREATE DEVICE
-@app.route('/api/v1/device', methods=['POST'])
+@app.route('/api/v1/device/', methods=['POST'])
 def create_device():
     try:
         data = json.loads(request.data)
@@ -366,13 +366,13 @@ def update_device(value):
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
 #Define DELETE METRIC with ID
-@app.route('/api/v1/metric/patient=<email>/id=<value>', methods=['DELETE'])
-def delete_metric(email, value):
+@app.route('/api/v1/metric/patient=<id>/id=<value>', methods=['DELETE'])
+def delete_metric(id, value):
     try:
         if db.Metric.count_documents({ "_id" : value }, limit = 1) == 1 and db.Patient.count_documents({ "email" : email }, limit = 1) == 1:
             db.Workouts.delete_one({ "_id" : value })
             newValues = { "metrics": value }
-            db.Patient.update_one({ "email" : email }, { "$pull" : newValues })
+            db.Patient.update_one({ "_id" : id }, { "$pull" : newValues })
             return jsonify({"deleteMetric" : "success"}), 200, {'Content-Type': 'application/json; charset=utf-8'}
         else:
             return jsonify({"deleteMetric" : "patientOrMetricNotFound"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
@@ -391,7 +391,7 @@ def delete_device(value):
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
-#Define DELETE NURSE with EMAIL
+#Define DELETE NURSE with ID
 @app.route('/api/v1/nurse/id=<value>', methods=['DELETE'])
 def delete_nurse(value):
     try:
@@ -403,7 +403,7 @@ def delete_nurse(value):
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
-#Define DELETE PATIENT with EMAIL
+#Define DELETE PATIENT with ID
 @app.route('/api/v1/patient/id=<value>', methods=['DELETE'])
 def delete_patient(value):
     try:
