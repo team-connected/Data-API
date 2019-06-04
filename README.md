@@ -28,7 +28,7 @@ Implemented will be marked with :heavy_check_mark:
 | ------------- | ------------- | ------------- | ------------- |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/id=[id] | Retrieve list of metrics of a patient |
 | :heavy_check_mark: | GET | http://[hostname]/api/v1/metric/[searchField]=[searchTerm] | Retrieve a metric |
-| :heavy_check_mark: | POST | http://[hostname]/api/v1/metric/id=[id] | Create a metric |
+| :heavy_check_mark: | POST | http://[hostname]/api/v1/metric/patient=[id] | Create a metric |
 | :heavy_check_mark: | PUT | http://[hostname]/api/v1/metric/id=[id] | Update a metric |
 | :heavy_check_mark: | DELETE | http://[hostname]/api/v1/metric/id=[id] | Delete a metric |
 

@@ -209,7 +209,7 @@ def create_metric(id):
         device_id = data['device_id']
         nurse_id = data['nurse_id']
         value = data['value']
-        comment = data['distance']
+        comment = data['comment']
         uid = uuid.uuid4().hex
         if db.Patient.count_documents({ '_id': id }, limit = 1) == 1 and db.Nurse.count_documents({ '_id': nurse_id }, limit = 1) == 1:
             status = db.Metric.insert_one({
