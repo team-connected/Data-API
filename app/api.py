@@ -223,7 +223,7 @@ def create_metric(id):
             })
             newValues = { "metrics": uid }
             db.Patient.update_one({ "_id" : id }, { "$push" : newValues })
-            return jsonify({"createMetric" : "success"}), 201, {'Content-Type': 'application/json; charset=utf-8'}
+            return jsonify({"createMetric" : uid}), 201, {'Content-Type': 'application/json; charset=utf-8'}
         else:
             return jsonify({"createMetric" : "patientOrNurseNotFound"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
