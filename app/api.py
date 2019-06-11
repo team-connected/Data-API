@@ -206,10 +206,10 @@ def create_metric(id):
         data = json.loads(request.data)
 
         # Do not require the following fields:
-        if "bloed" in data:
-            bloed = data['bloed']
+        if "bloeddruk" in data:
+            bloeddruk = data['bloeddruk']
         else:
-            bloed = 0
+            bloeddruk = 0
         
         if "gewicht" in data:
             gewicht = data['gewicht']
@@ -235,7 +235,7 @@ def create_metric(id):
         if db.Patient.count_documents({ '_id': id }, limit = 1) == 1 and db.Nurse.count_documents({ '_id': nurse_id }, limit = 1) == 1:
             status = db.Metric.insert_one({
                 "_id" : uid,
-                "bloed" : bloed,
+                "bloeddruk" : bloeddruk,
                 "gewicht" : gewicht,
                 "temperatuur" : temperatuur,
                 "timestamp" : timestamp,
@@ -327,9 +327,9 @@ def update_metric(id):
         if db.Metric.count_documents({ "_id" : id }, limit = 1) == 1:
             data = json.loads(request.data)
             newValues = {}
-            if "bloed" in data:
-                bloed = data['bloed']
-                newValue = { "bloed": bloed }
+            if "bloeddruk" in data:
+                bloeddruk = data['bloeddruk']
+                newValue = { "bloeddruk": bloeddruk }
                 newValues.update(newValue)
             if "gewicht" in data:
                 gewicht = data['gewicht']
