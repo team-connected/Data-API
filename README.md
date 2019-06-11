@@ -52,7 +52,7 @@ Implemented will be marked with :heavy_check_mark:
 
 ### Fields
 #### Patient
-* **_id**: Unique number
+* **_id**: Unique number (Generated automaticly)
 * **firstname**: Firstname
 * **lastname**: Lastname
 * **email**: E-Mail address
@@ -62,23 +62,24 @@ Implemented will be marked with :heavy_check_mark:
 * **metrics**: List of all metrics
 
 #### Metric
-* **_id**: Unique number
-* **metric_type**: Blood/Weight/Temperature?
-* **timestamp**: Timestamp
-* **device_id**: Device used to measure
-* **nurse_id**: Nurse that measured
-* **value**: List of values of the measure
+* **_id**: Unique number (Generated automaticly)
+* **blood**: Value of the Blood
+* **weight**: Value of the Weight
+* **temperature**: Value of the Temperature
+* **timestamp**: Timestamp (Required)
+* **device_id**: Device used to measure (Required)
+* **nurse_id**: Nurse that measured (Required)
 * **comment**: Optional comment
 
 #### Nurse
-* **_id**: Unique number
+* **_id**: Unique number (Generated automaticly)
 * **firstname**: Firstname
 * **lastname**: Lastname
 * **email**: E-Mail address
 * **department**: Department
 
 #### Device
-* **_id**: Unique number
+* **_id**: Unique number (Generated automaticly)
 * **name**: Name of the device
 * **type**: Device type
 * **sn**: Serialnumber

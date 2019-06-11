@@ -1,4 +1,4 @@
-#Import required dependencies
+# Import required dependencies
 from flask import Flask, jsonify, abort, make_response, request
 from pymongo import MongoClient
 from bson.json_util import dumps
@@ -204,17 +204,40 @@ def create_device():
 def create_metric(id):
     try:
         data = json.loads(request.data)
-        metric_type = data['metric_type']
+
+        # Do not require the following fields:
+        if "blood" in data:
+            blood = data['blood']
+        else:
+            blood = 0
+        
+        if "weight" in data:
+            weight = data['weight']
+        else:
+            weight = 0
+        
+        if "temperature" in data:
+            temperature = data['temperature']
+        else:
+            temperature = 0
+
+        if "comment" in data:
+            comment = data['comment']
+        else:
+            comment = ""
+
+        # Require these fields
         timestamp = data['timestamp']
         device_id = data['device_id']
         nurse_id = data['nurse_id']
-        value = data['value']
-        comment = data['comment']
+        
         uid = uuid.uuid4().hex
         if db.Patient.count_documents({ '_id': id }, limit = 1) == 1 and db.Nurse.count_documents({ '_id': nurse_id }, limit = 1) == 1:
             status = db.Metric.insert_one({
                 "_id" : uid,
-                "metric_type" : metric_type,
+                "blood" : blood,
+                "weight" : weight,
+                "temperature" : temperature,
                 "timestamp" : timestamp,
                 "device_id" : device_id,
                 "nurse_id" : nurse_id,
@@ -304,9 +327,17 @@ def update_metric(id):
         if db.Metric.count_documents({ "_id" : id }, limit = 1) == 1:
             data = json.loads(request.data)
             newValues = {}
-            if "metric_type" in data:
-                metric_type = data['metric_type']
-                newValue = { "metric_type": metric_type }
+            if "blood" in data:
+                blood = data['blood']
+                newValue = { "blood": blood }
+                newValues.update(newValue)
+            if "weight" in data:
+                weight = data['weight']
+                newValue = { "weight": weight }
+                newValues.update(newValue)
+            if "temperature" in data:
+                temperature = data['temperature']
+                newValue = { "temperature": temperature }
                 newValues.update(newValue)
             if "timestamp" in data:
                 timestamp = data['timestamp']
