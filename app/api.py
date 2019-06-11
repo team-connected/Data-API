@@ -206,20 +206,20 @@ def create_metric(id):
         data = json.loads(request.data)
 
         # Do not require the following fields:
-        if "blood" in data:
-            blood = data['blood']
+        if "bloed" in data:
+            bloed = data['bloed']
         else:
-            blood = 0
+            bloed = 0
         
-        if "weight" in data:
-            weight = data['weight']
+        if "gewicht" in data:
+            gewicht = data['gewicht']
         else:
-            weight = 0
+            gewicht = 0
         
-        if "temperature" in data:
-            temperature = data['temperature']
+        if "temperatuur" in data:
+            temperatuur = data['temperatuur']
         else:
-            temperature = 0
+            temperatuur = 0
 
         if "comment" in data:
             comment = data['comment']
@@ -235,9 +235,9 @@ def create_metric(id):
         if db.Patient.count_documents({ '_id': id }, limit = 1) == 1 and db.Nurse.count_documents({ '_id': nurse_id }, limit = 1) == 1:
             status = db.Metric.insert_one({
                 "_id" : uid,
-                "blood" : blood,
-                "weight" : weight,
-                "temperature" : temperature,
+                "bloed" : bloed,
+                "gewicht" : gewicht,
+                "temperatuur" : temperatuur,
                 "timestamp" : timestamp,
                 "device_id" : device_id,
                 "nurse_id" : nurse_id,
@@ -327,17 +327,17 @@ def update_metric(id):
         if db.Metric.count_documents({ "_id" : id }, limit = 1) == 1:
             data = json.loads(request.data)
             newValues = {}
-            if "blood" in data:
-                blood = data['blood']
-                newValue = { "blood": blood }
+            if "bloed" in data:
+                bloed = data['bloed']
+                newValue = { "bloed": bloed }
                 newValues.update(newValue)
-            if "weight" in data:
-                weight = data['weight']
-                newValue = { "weight": weight }
+            if "gewicht" in data:
+                gewicht = data['gewicht']
+                newValue = { "gewicht": gewicht }
                 newValues.update(newValue)
-            if "temperature" in data:
-                temperature = data['temperature']
-                newValue = { "temperature": temperature }
+            if "temperatuur" in data:
+                temperatuur = data['temperatuur']
+                newValue = { "temperatuur": temperatuur }
                 newValues.update(newValue)
             if "timestamp" in data:
                 timestamp = data['timestamp']

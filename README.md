@@ -63,9 +63,9 @@ Implemented will be marked with :heavy_check_mark:
 
 #### Metric
 * **_id**: Unique number (Generated automaticly)
-* **blood**: Value of the Blood
-* **weight**: Value of the Weight
-* **temperature**: Value of the Temperature
+* **bloed**: Value of the Blood
+* **gewicht**: Value of the Weight
+* **temperatuur**: Value of the Temperature
 * **timestamp**: Timestamp (Required)
 * **device_id**: Device used to measure (Required)
 * **nurse_id**: Nurse that measured (Required)
