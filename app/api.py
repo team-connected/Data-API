@@ -446,6 +446,17 @@ def delete_patient(value):
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
+#Define EASTEREGG
+@app.route('/api/v1/seminar/SpeechRecognitionIn1962=<value>', methods=['GET'])
+def get_seminar(value):
+    try:
+        if value.lower() == "shoebox":
+            return jsonify({"sendSpeechRecognition" : "CORRECT!"}), 200, {'Content-Type': 'application/json; charset=utf-8'}
+        else:
+            return jsonify({"sendSpeechRecognition" : "Not Found! Try Again!"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
+    except Exception as e:
+        return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
+
 #Define main APP
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True)
