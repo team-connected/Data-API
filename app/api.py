@@ -451,9 +451,9 @@ def delete_patient(value):
 def get_seminar(value):
     try:
         if value.lower() == "shoebox":
-            return jsonify({"sendSpeechRecognition" : "CORRECT!"}), 200, {'Content-Type': 'application/json; charset=utf-8'}
+            return "Correct! http://bit.ly/seminar-spoorwegen", 200, {'Content-Type': 'application/json; charset=utf-8'}
         else:
-            return jsonify({"sendSpeechRecognition" : "Not Found! Try Again!"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
+            return "Helaas! Probeer het opnieuw.", 404, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
