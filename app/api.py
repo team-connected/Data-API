@@ -241,7 +241,6 @@ def create_metric(id):
                 "timestamp" : timestamp,
                 "device_id" : device_id,
                 "nurse_id" : nurse_id,
-                "value" : value,
                 "comment" : comment
             })
             newValues = { "metrics": uid }
