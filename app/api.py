@@ -400,7 +400,7 @@ def update_device(value):
 @app.route('/api/v1/metric/patient=<id>/id=<value>', methods=['DELETE'])
 def delete_metric(id, value):
     try:
-        if db.Metric.count_documents({ "_id" : value }, limit = 1) == 1 and db.Patient.count_documents({ "email" : email }, limit = 1) == 1:
+        if db.Metric.count_documents({ "_id" : value }, limit = 1) == 1 and db.Patient.count_documents({ "_id" : id }, limit = 1) == 1:
             db.Workouts.delete_one({ "_id" : value })
             newValues = { "metrics": value }
             db.Patient.update_one({ "_id" : id }, { "$pull" : newValues })
