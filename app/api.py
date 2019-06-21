@@ -67,12 +67,9 @@ def get_devices():
 def get_metrics(value):
     try:
         if db.Patient.count_documents({ "_id" : value }, limit = 1) == 1:
-            if db.Patient.find_one({ "_id" : value },{"metrics" : ""}) is None:
-                metrics = db.Patient.find_one({ "_id" : value },{"metrics":1})
-                metric = db.Metric.find({"_id":{"$in":metrics["metrics"]}})
-                return dumps(metric), 200, {'Content-Type': 'application/json; charset=utf-8'}
-            else:
-                return jsonify({"getMetrics" : "noMetricsFound"}), 204, {'Content-Type': 'application/json; charset=utf-8'}
+            metrics = db.Patient.find_one({ "_id" : value },{"metrics":1})
+            metric = db.Metric.find({"_id":{"$in":metrics["metrics"]}})
+            return dumps(metric), 200, {'Content-Type': 'application/json; charset=utf-8'}
         else:
             return jsonify({"getMetrics" : "userNotFound"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
