@@ -143,7 +143,8 @@ def create_patient():
                 "email" : email,
                 "street" : street,
                 "city" : city,
-                "location" : location
+                "location" : location,
+                "metrics" : [ ]
             })
             return jsonify({"createPatient" : "success"}), 201, {'Content-Type': 'application/json; charset=utf-8'}
         else:
