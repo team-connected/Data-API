@@ -1,0 +1,2107 @@
+{
+  "_id": "1391109f9910481c933970c5db966358",
+  "name": "Microlife Watch BP O 3",
+  "sn": "1234567890123",
+  "status": "Working",
+  "type": "bloeddrukmeters"
+},
+{
+  "_id": "40kbevzz1midqz68vs6zvmx0ae6vq7oc",
+  "name": "General Injectables & Vaccines, Inc",
+  "sn": "BVtPN7N7H65v",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "j66jojoal19psyfcplywmzt9cnyf1lpy",
+  "name": "Procter and Gamble Manufacturing Company",
+  "sn": "K05G2iHssBq2",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "na90xio7xgyus8llbfgqyi1e7u227n27",
+  "name": "Enchante Accessories, Inc.",
+  "sn": "PcZ0jdFKa9rp",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "y363fqujy6vlpzqtxan4ivkf98gi99ey",
+  "name": "NOVANA MEDICAL LLC",
+  "sn": "Ath7nissL71s",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "h8vh16kgcdh9w26gj5tjfic94m2p4bfy",
+  "name": "Cubist Pharmaceuticals U.S.",
+  "sn": "QaUDEYy11kCf",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "0ozn5pknxljehh93w9vmrq5u7vzbr9qt",
+  "name": "SMART SENSE (Kmart)",
+  "sn": "nEfO1HfPQmWL",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "ueabry15lu0ciwfwbk1i70w9rpny1jub",
+  "name": "Actavis Elizabeth LLC",
+  "sn": "xWYp4VEbNotx",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "nodi2gzetp2fbmzbg07se80ah9vnea3g",
+  "name": "Apotex Corporation",
+  "sn": "UnC5RBcjmm3M",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "vx2v9ozqwjd9v1upxn1113xajscjjvz5",
+  "name": "Cadila Healthcare Limited",
+  "sn": "bG2Jt0meGsNL",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "zrqqou2wgoy2i0w1fncqkhwj7obddagm",
+  "name": "Unit Dose Services",
+  "sn": "YVlUu0NUI8a4",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "ozr9w4811keriqi4az067g15am7xp12y",
+  "name": "Cantrell Drug Company",
+  "sn": "Xm90NTCy3nWM",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "mipehtp1e7yelgbbiqnxkqi4uqmhygsu",
+  "name": "CSL Behring LLC",
+  "sn": "SOLsXosn4uo6",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "5rc6id4pe76hcmxyzbg7sl4axzinpfou",
+  "name": "Vi-Jon",
+  "sn": "oxy5MdQlaDiJ",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "difmha26mt24awbbvf0fo2geg98nhpl0",
+  "name": "Teva Pharmaceuticals USA Inc",
+  "sn": "aVcPWUUBRbNA",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "jkh9tpli18da56ad2lqdqt1yn0glixh6",
+  "name": "Actavis Pharma, Inc.",
+  "sn": "Pr0GbEdJB8mz",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "qq6nhr0n638xru9o2zai151jx4w5mocz",
+  "name": "Wicsun Trading Inc",
+  "sn": "NWX1UtrYb8GE",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "6rhmz7rbkhd11tkf403x2vgaog3lblnj",
+  "name": "Hyland's",
+  "sn": "b11KGTXsPcTA",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "fp85h0oje6jsreyptml1ur3sdbir4a4v",
+  "name": "Unit Dose Services",
+  "sn": "6dGAo88Ww28V",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "mqs06k5ph308qpegp1x6l1yov51hn422",
+  "name": "Ventura Corporation LTD.",
+  "sn": "8iiScMVqyhO7",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "jgb1s1oob0eqf0ty9j9xgtt68lba7dv9",
+  "name": "PD-Rx Pharmaceuticals, Inc.",
+  "sn": "45qipRknrZV4",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "lb4kvrrck7hcyt12jruputosfmg5utmy",
+  "name": "Hyland's",
+  "sn": "opOWtGtoMShk",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "8rcai3ugmzugb7g0yt821r05j91dqvaj",
+  "name": "Chain Drug Consortium, LLC (Premier Value)",
+  "sn": "sYxgxjCHIsbC",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "11do8i81s509b4kn5dmcs8psrvwiqty4",
+  "name": "GlaxoSmithKline LLC",
+  "sn": "BRlpoD7MGuU5",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "xgpzcnr0eb9opxye7ztwre0yll4tzian",
+  "name": "Roxane Laboratories,Inc",
+  "sn": "VBD53asv3yup",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "hshank00nsc1izoovxjqno3vrf4omwcd",
+  "name": "Accord Healthcare Inc.",
+  "sn": "eSSZlqj1hvJn",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "z4pj1jr4q3j357sgdd1ugob35un7cv1h",
+  "name": "Frabel S.A de C.V.",
+  "sn": "NPKUW50KMSt2",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "9p33nl8gntf2posrvy14bxzjt5ia41lf",
+  "name": "Apotheca Company",
+  "sn": "J2ziajZNlqvO",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "bxzf0nm1gleal6iunwhacawgsrer8f9c",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "ZFpY3kxiEl0d",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "acgy4hjjguqvh5xx2jtu9puo87axw78b",
+  "name": "Jubilant HollisterStier LLC",
+  "sn": "0v5cLYLDrXo4",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "dp5xf2661ezjtwgig8petbl90l7bpz1t",
+  "name": "Antigen Laboratories, Inc.",
+  "sn": "jXaRztcGRt96",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "prk2vgmo99jpy3tftox6ys8x801l8aak",
+  "name": "Bryant Ranch Prepack",
+  "sn": "ywktsPPNboGi",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "b8n98smlaw7fii8s8dpm3xeae4n4b4ux",
+  "name": "Physicians Total Care, Inc.",
+  "sn": "KfG2xsDin1Pq",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "810yaa9b8m4vpxjcrxjtljuhiv5mqh67",
+  "name": "Apotheca Company",
+  "sn": "hDP6hIw34aZA",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "b9zc9qzb83eikm2w161woppstob3q1k1",
+  "name": "Teva Parenteral Medicines, Inc",
+  "sn": "xfo0NFBDGCy7",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "hrxqyxxklitb8cg4fc5zj3pj7h7s2aya",
+  "name": "Northwind Pharmaceuticals",
+  "sn": "NjL8aMvEDpZf",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "71z2ffbr2jzr4uk8zlaxvreq3pg6rhmd",
+  "name": "Aidarex Pharmaceuticals LLC",
+  "sn": "C2lsx2jA58QV",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "a4zw7r2jt36l2wg9mebjhy4pky5qzwjb",
+  "name": "Apotheca Company",
+  "sn": "Js76oEVNCj9O",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "2f2lhj9elpgpynm3jetklehqou79ek4w",
+  "name": "Meijer Distribution Inc",
+  "sn": "r3pAR0GpIDTb",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "jcyvr371rvfhkc516lncch9ggxru3niq",
+  "name": "Panrosa Enterprises, Inc.",
+  "sn": "1rzcwHFY82kg",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "oqajk0f0yqyhpce6caa8hjamn7hfm88k",
+  "name": "Mylan Institutional LLC",
+  "sn": "wZWnkwBwvPS3",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "p0upq4gotnryqnxspntiutw363uuqqho",
+  "name": "Teva Pharmaceuticals USA Inc",
+  "sn": "FkjnmpSUdxtI",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "kepcwgm5c3vrv1iev53jwxf5dm55cbm8",
+  "name": "True Botanica, LLC",
+  "sn": "D5OL6X9zuU9x",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "8cszm2oiv7nbmsxynfu5s20cx6fj2a3o",
+  "name": "Dr. Reddy's Laboratories Limited",
+  "sn": "ck8t5OtJKNvo",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "vhlomd4b17p7tee2i0yfrr8smapo90vm",
+  "name": "H E B",
+  "sn": "IBgFS3pItbrT",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "22wdq8lwjtzsuswi3cwb4sdnysoimg81",
+  "name": "BIO NUCLEONICS INC",
+  "sn": "TJLuYRyGCnHK",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "zshbrt07jf2veohimqhl2a8co448bfw1",
+  "name": "Jubilant HollisterStier LLC",
+  "sn": "9B0cbcqWNn2v",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "3apjyz79f6t55hcykyx3t0po748ml821",
+  "name": "Target Corporation",
+  "sn": "yY219b3amWHv",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "pvclzr8yeathptr22ssx29j0o5p6878j",
+  "name": "Wyeth Pharmaceuticals Inc., a subsidiary of Pfizer Inc.",
+  "sn": "e70wcMs6f9go",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "11pnay27ytq8qmh72249zb7kl944eh8h",
+  "name": "Major Pharmaceuticals",
+  "sn": "B5SttrzsjV6s",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "b3udg2c7xi9uo7g20ywm74wbi8i3ffdd",
+  "name": "Parkmor Drug Inc.",
+  "sn": "UpgjGKw2iAqV",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "x4b6l73mpuifmk005f27n15i7l2j6n35",
+  "name": "Reckitt Benckiser LLC",
+  "sn": "JX6GZlHdXQaQ",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "smni7x2pfel4wdo7mmv043ocjj3u76j7",
+  "name": "Jubilant HollisterStier LLC",
+  "sn": "AclB6sRtA8Xx",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "jb2707rh71g1i45hrpev266wa6h221pm",
+  "name": "Ricola USA Inc.",
+  "sn": "hDnZnnDhOmOH",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "m9z445u7x0w9rso5veekpc9y7nyxze5z",
+  "name": "King Bio Inc.",
+  "sn": "YmDZunDkoOed",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "1sn3yk7dxi7byrkkgtzahh2v8bcyhm55",
+  "name": "Deseret Biologicals, Inc.",
+  "sn": "ECzFuEkwQYuQ",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "iq9ehymqu30rfrsqce1uor1o50comu18",
+  "name": "VistaPharm Inc",
+  "sn": "1egUYQ6pWztm",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "44ozw2en05c7drn4bt0n2ywh06qrfp46",
+  "name": "Allergy Laboratories, Inc.",
+  "sn": "LrxEcDI1gW6o",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "xaycrqmfnklx17ex91s3t1g335a3wrg6",
+  "name": "NATURE REPUBLIC CO., LTD.",
+  "sn": "gi88ilDXY0CD",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "kemqd5rgbemt2c21i4sziruj4nrivqkz",
+  "name": "Physicians Total Care, Inc",
+  "sn": "XmAQKiowgUGJ",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "k0xvwmnxcpe5v59ghfmputyj2i94x17b",
+  "name": "Insys Therapeutics, Inc.",
+  "sn": "DJg9dwC6i7LN",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "gs54jzgcloczy8yxzjr2w7e06ooxv5vb",
+  "name": "Golden State Medical Supply, Inc",
+  "sn": "wVacgkXEOFqX",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "y2060ksd6lnxolmt5am8p9ij8j63rkad",
+  "name": "Glenmark Generics Inc., USA",
+  "sn": "7mHuOmgyIWcj",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "sbl1g5e0e8ct6jylhel2abtvvxxrxaxl",
+  "name": "WAL-MART STORE INC",
+  "sn": "QqjTfoHtC1AI",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "sjmoerk4i2164ttvkw1unl0bafv0zvll",
+  "name": "BioActive Nutritional, Inc.",
+  "sn": "9lRQxfG0ycvi",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "hiwk4taaz7cetmmah2lpsmyz3e9p865k",
+  "name": "Uriel Pharmacy Inc.",
+  "sn": "KnwWoLT9MYtq",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "ejklcgdbvqunb5i0fhcluf100xgz3ip7",
+  "name": "SANUM-KEHLBECK GMBH & CO KG",
+  "sn": "nEa8rXVVDZbv",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "8mwey462vayhlezwbz4paj7tp7bd38mc",
+  "name": "Sun Pharma Global FZE",
+  "sn": "fT546yIbciRK",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "0vsb99sj0wmx1fbqmce6qx608022390x",
+  "name": "Beiersdorf Inc",
+  "sn": "K0aq0cHymjV6",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "v28avnbn41tk0b5ira38qbds22hj0q2y",
+  "name": "AbbVie Inc.",
+  "sn": "5kThhvyuwlgJ",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "5dxyovf54yjd71uplr1tku1xcgj4uw8w",
+  "name": "Major Pharmaceuticals",
+  "sn": "M1UBdPTXVYsO",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "arawckierpqlqd68gpi7r8ctnt7vdn55",
+  "name": "Wal-Mart Stores Inc",
+  "sn": "zCXHGzeLZUtl",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "q8022h9hz8lde190rzq4sacsnkhx6c5h",
+  "name": "Allergy Laboratories, Inc.",
+  "sn": "hr32igT3naLD",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "r47bi31nniez8nzj152obk2m60ivrqgn",
+  "name": "NCS HealthCare of KY, Inc dba Vangard Labs",
+  "sn": "DXpxJTzAvV7z",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "kw5t34w1brtn8powd1vtjccg1zpot65i",
+  "name": "Physicians Total Care, Inc.",
+  "sn": "jmkjsHK8lDaT",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "4wtpsdn0tgeya8n95li68cgjfix25kqu",
+  "name": "AvKARE, Inc.",
+  "sn": "kep0kmnklLVn",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "t71t9tl90mfw8fted8tgxje8dyzgru6f",
+  "name": "Rimmel Inc.",
+  "sn": "EbaU2RusOBHX",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "qvn6cgspauojpo49ig9iepicesaho8ll",
+  "name": "Baxter Healthcare Corporation",
+  "sn": "yYCuZihVAEUD",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "yh4b2bce3ozhfu2d98knn4kd0rbvx6zj",
+  "name": "Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC",
+  "sn": "YRb19QZsRwrv",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "lx7tj7jd956o7noxrz4mdycaly7ftery",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "DYWA8pGeLeOw",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "ay3c4iw4qphia5lat6sgfohqpz0bmkml",
+  "name": "Virtus Pharmaceuticals",
+  "sn": "mywgv1mWOkDq",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "jjbo2pqvyl47ahcxvd926l68h9tv4z71",
+  "name": "University Medical Pharmaceuticals Corp",
+  "sn": "RUhftxtohDJN",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "6bxi54xutcn7e9x30dwa5x2gg3k7qu3k",
+  "name": "Bath & Body Works, Inc.",
+  "sn": "4GrtTvUyRRtz",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "frzom75qf7yjaojajbg4una7fz2g3q2n",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "ASf2JFD05OyV",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "m43r24f4fb6fuspcmiqgzn7jgxn665wk",
+  "name": "Apotheca Company",
+  "sn": "O9QFv3wFQdjW",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "69ms554setl7sqttvtywijvh6igdyfuk",
+  "name": "CVS Pharmacy",
+  "sn": "IVNeIHargAv0",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "og70x3zeu12l6gbow275xdna5tjstszw",
+  "name": "Aphena Pharma Solutions - Tennessee, LLC",
+  "sn": "i3YNzok3pMKm",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "x9ij5tmeew0woa4ibs8cl1dzctr883vf",
+  "name": "Buckeye International, Inc.",
+  "sn": "ivE4aZpvJtQJ",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "wulyqriu2cnubwadm9vq1gknv276j3fa",
+  "name": "sanofi-aventis U.S. LLC",
+  "sn": "w8mAw6uzIgkv",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "kaol6b8wu76reoh1lom801d41khge0c5",
+  "name": "NATURE REPUBLIC CO., LTD.",
+  "sn": "H9NRM3E4Rklp",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "3cla6bwe59jzcisxqhi08kx9tokncp6i",
+  "name": "Safeway",
+  "sn": "VqXuoTSxFYay",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "hc0uoh603f0plvnzapi4w8nscuwrz37w",
+  "name": "Zydus Pharmaceuticals (USA) Inc.",
+  "sn": "ynEZ4m8YXR0u",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "kcl0o3yv7rsrhtmo4wpmptm6q4i4yy14",
+  "name": "Procter & Gamble Manufacturing Company",
+  "sn": "SbStWh5zjgMI",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "nx06k7s8meqhzty2jyg6u16p41j0btoc",
+  "name": "AbbVie Inc.",
+  "sn": "hlyHiBrrWiDA",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "bcs4boqwp92uez5p4lt1j13vtbsrr7qo",
+  "name": "Kinray Inc.",
+  "sn": "LKt1zGFcjLbK",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "s9z340jbz9dsseapyiq85a9zmcrpu8np",
+  "name": "Hospira, Inc.",
+  "sn": "eioGZ7T8QWOS",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "8h1o34bcgm22gkaxoqqu7i0ha00p99kq",
+  "name": "Preferred Pharmaceuticals, Inc",
+  "sn": "Bw05hGE25ZZy",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "t185v0vtkp0417q0hq7tu3utq5l5qkg0",
+  "name": "REMEDYREPACK INC.",
+  "sn": "PpatnAabGk4R",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "siw6c85jg3e5elfs9lf1voqq6f2916mg",
+  "name": "Ecomine Co Ltd",
+  "sn": "6SuODdwnS4BG",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "zgjnfndfbq9rl9vkjqq0nakm503dsks0",
+  "name": "Aaron Industries, Inc.",
+  "sn": "nOpvgUaW3Kcz",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "f1g0p7v4tp13fr0jukuwycrjnx1xujod",
+  "name": "American Health Packaging",
+  "sn": "fhRMfrDcEwyl",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "cbiqhhp3ef0r1gmbgr4kmrqqivqhf1hw",
+  "name": "Watson Pharma, Inc.",
+  "sn": "VkzL9H4pzcOq",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "1daht800hmn9zb7f9p7jfewsh5sya9kv",
+  "name": "Sagent Pharmaceuticals",
+  "sn": "7jVtLfztHPRt",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "93q3lr2s0upuz6nicaee2as0l4bhei2m",
+  "name": "BioActive Nutritional, Inc.",
+  "sn": "epxAgO3uvh8z",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "orr9egybjvse5bw21886umlxs07lywoa",
+  "name": "Dispensing Solutions, Inc.",
+  "sn": "hHgNES8Oh9MJ",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "ublt0z9duznl8au1hks86ibcax0aq7z8",
+  "name": "H E B",
+  "sn": "3k9XsKpF3IjW",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "l68brh61lhypiqj57r4dp9vwoqz1om75",
+  "name": "Hydrox Laboratories",
+  "sn": "9BYwVNgzBawn",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "2qkbw48cug4lmn5yozt0kth70nnc2uhe",
+  "name": "Everett Laboratories, Inc.",
+  "sn": "VS2CGMPcKD4a",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "wvtfzyhz7oll4wuycjzv02jva5bcugsm",
+  "name": "Crown Laboratories",
+  "sn": "fxR1Fx0eCQky",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "wcfe8axq7rvtq62o0o4qcco56jta97y2",
+  "name": "REMEDYREPACK INC.",
+  "sn": "gL3CGSC9eOIZ",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "xdd8r5rbcjfs4wrghw5fpka30ojctf27",
+  "name": "Aidarex Pharmaceuticals LLC",
+  "sn": "LhBtNfODF03X",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "pu01olsfd3rj0srkxnkentsp2re93y88",
+  "name": "Janssen Pharmaceuticals, Inc.",
+  "sn": "6vbO44OlOodk",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "mrwifqq33bqvsd6s3ykobieqvkbl89x9",
+  "name": "Camber Pharmaceuticals",
+  "sn": "SPYpnvfzpwFD",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "kqbna5vtr181if76keha0jbmprlyqese",
+  "name": "Amerisource Bergen",
+  "sn": "Lsz13wJpy79P",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "n9u4bcyl0rfnmn6sp1fzlb69sv27b2j4",
+  "name": "Alcon Laboratories, Inc.",
+  "sn": "loMrUcmaYlwq",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "7ldn60psjx1n2tvvrpc8x24z9bzflwxb",
+  "name": "Allermed Laboratories, Inc.",
+  "sn": "pgbCPbARMlXt",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "vmy9hbvx79j1x8qbim5r2uicxo6uakow",
+  "name": "Taro Pharmaceuticals U.S.A., Inc.",
+  "sn": "2EAledJxcx17",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "ea2so55i06ntfo105h1he2isuked5o54",
+  "name": "Strate Welding Supply Co., Inc.",
+  "sn": "Q8v9pUAbTVVA",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "yteouanfhvssvfp61u4mjbgfs2v3di4f",
+  "name": "Cardinal Health",
+  "sn": "kKKVl6J5nA4V",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "gwunkyz5qm7fq7vq0dxgwx0bykpsqjkn",
+  "name": "Novartis Consumer Health, Inc.",
+  "sn": "vPmxVbzIIoiF",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "ejlbzv4rhtvh5zcabgw2jm7fhisfopwh",
+  "name": "Cardinal Health",
+  "sn": "HGYvxXtvUr4s",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "pmwugcogtdpfnghah2askw965d0uy8cd",
+  "name": "SHISEIDO AMERICA INC.",
+  "sn": "4ipQliU9dW52",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "imvgbdsn7we5a1h48t9gurkmzr86kqve",
+  "name": "Indiana Botanic Gardens",
+  "sn": "mh90U7wN1Pb3",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "kc2f3ic4m3juw7itcew4ggxvlvsdpqsl",
+  "name": "St Marys Medical Park Pharmacy",
+  "sn": "qqE7sAS35uHK",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "qbjmv06cr6wvj8t4bhk88kzqlnh8vcm3",
+  "name": "Dolgencorp, Inc. (DOLLAR GENERAL & REXALL)",
+  "sn": "1AElTECk7Uet",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "c2xnp3tsw863zh7t2sp6xqaxbxmtw3un",
+  "name": "Kmart Corporation",
+  "sn": "ZerdmhzQ5w9n",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "81ijprvzw30uzdroo4pxfb84el4fkhqc",
+  "name": "Apotheca Company",
+  "sn": "iV8SM23qbm48",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "weo4xk781534ukr50i3trhu4ma8yerzi",
+  "name": "Fresenius Kabi USA, LLC",
+  "sn": "INAVhEr4ampz",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "1s7mw0hjd9xon64xm9ya7muimt1lvg3x",
+  "name": "Mylan Pharmaceuticals Inc.",
+  "sn": "12DE1bRbJrZ7",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "ohm83i5olow5m2p45vl528dt4tl5p58t",
+  "name": "Mallinckrodt Inc.",
+  "sn": "6iknFcKtG2Nm",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "qq6xeos9khsod7avl576mujfuddbw1t1",
+  "name": "UDL Laboratories, Inc.",
+  "sn": "6ZO12teVqhtK",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "0jb8j1nw18o38nyox7x58arh6nmoenx0",
+  "name": "Home Sweet Homeopathics",
+  "sn": "TjIYDveWEUL7",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "je4pogkqs8ql175bndiqzyap9qbl1beg",
+  "name": "Newton Laboratories, Inc.",
+  "sn": "EKRIsB727OuO",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "icnoy9t7jjl2w3puflebv6kv4lhsp3ip",
+  "name": "Deliz Pharmaceutical Corp",
+  "sn": "9b5cohqwKyyi",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "mcw78hj6ayagi9marrrq7mwb7euimw2l",
+  "name": "CVS Pharmacy Inc",
+  "sn": "e8BOBS6Qb6OW",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "9z9efbvqygbifsejyjmabnay2yk0krny",
+  "name": "ALK-Abello, Inc.",
+  "sn": "qnHYPbz1L0aj",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "rtgzedzs09zxewfew9zravf23zt2vmvm",
+  "name": "GOJO Industries, Inc.",
+  "sn": "fFn7EncEjATj",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "lziwxk9nw35c37swrxwzv565eacf06uj",
+  "name": "HOMEOLAB USA INC",
+  "sn": "J3r66tDaRokh",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "8la4chko42fjwku8c5rjlqvxlvq2wav8",
+  "name": "Lake Erie Medical DBA Quality Care Products LLC",
+  "sn": "AQTzYt0yxGAR",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "9wr0nnqfc2wnvkzvahb6jzlzxh3em27f",
+  "name": "Guthy-Renker LLC",
+  "sn": "VpBwx1WW2BvB",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "6owtkpx8d56vcxwkcry6il9m4tgvsgxb",
+  "name": "Frontier Medical Equipment, Inc.",
+  "sn": "uPmD2XdofPry",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "4347xl0hez9q5m7gp5yu4figs3160lc3",
+  "name": "Deseret Biologicals, Inc.",
+  "sn": "uS0IwwjvKfds",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "95uvp5a6j0yd8z10m0flrpmkwtpa128a",
+  "name": "Aurobindo Pharma Limited",
+  "sn": "6oIzdizzsfYJ",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "c16h70j0elel5ftq1qrpi3rxxw1aoslh",
+  "name": "Cardinal Health",
+  "sn": "liiuZUAZKZoI",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "7da2evspeq72fblyayibpylfrn0v8oh1",
+  "name": "Deseret Biologicals, Inc.",
+  "sn": "tt1JoYmEoKkh",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "v52wxb6u4d92wc6bcyy126udmy7urmhs",
+  "name": "Uriel Pharmacy Inc.",
+  "sn": "gJUoLcL7Gn4x",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "oyx5ucjrn17vetjnyuz3nafpcdw3huvb",
+  "name": "Dr. Fresh, Inc.",
+  "sn": "BWXeUCMtGxxY",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "vunt0009mv9qmxiof5g09i30vu7tghb9",
+  "name": "Geiss, Destin + Dunn, Inc",
+  "sn": "ZJjXevhTPUHA",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "p0m2ergya7y5q9prqztpulkwtxq8oplz",
+  "name": "Sandoz Inc",
+  "sn": "AIxxrOenOGJE",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "vpbp2s07n3c1ul7zx520xkenczb6tm83",
+  "name": "Deb USA, Inc.",
+  "sn": "Sc8FAsOMlIsh",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "a49lrnp5un6vhh3td444g39gysg9y2xu",
+  "name": "McKesson Packaging Services Business Unit of McKesson Corporation",
+  "sn": "D0czRMLYkuTg",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "m3hipnxw514doaazdu2c5z9r09cc6zy5",
+  "name": "Guerlain",
+  "sn": "hcChDFrq75DS",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "v0lqv8hobpzsvinmryhw4f4u99enyinu",
+  "name": "LaCorium Health International Pty Ltd",
+  "sn": "Gd8q8iOVkRjU",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "179uuot10m5eya2rkbcsurbj4d3ogvmy",
+  "name": "Topco Associates LLC",
+  "sn": "6pzQIsmL238W",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "c45zbirthpwuznfixbvfhhewahv1zu0d",
+  "name": "Preferred Pharmaceuticals, Inc.",
+  "sn": "C1JNNx5MB8AT",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "okpwbif1ck5yohm9x0vp64abbzqn9q4o",
+  "name": "Meijer Distribution Inc",
+  "sn": "cU4VvqVfcqNa",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "4e9dwpa0zgshsymhh6e28liuhtv9hes8",
+  "name": "Concept Laboratories, Inc.",
+  "sn": "7DwhfsCP7ZQr",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "sp7xyeg8j3632ha7ulh1i5k1yi9nwgu1",
+  "name": "Major Pharmaceuticals",
+  "sn": "iLSVfnIDIdk4",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "8eo9gxy3ukuuih1oeck092afyj08jvdc",
+  "name": "ALK-Abello, Inc.",
+  "sn": "8dj2Mz9T6iQA",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "21yhsirc58lkqnu7pkw0mbxl683x43kz",
+  "name": "Mylan Institutional LLC",
+  "sn": "Ezb0uc3Mu8TK",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "h5a2l4fi441pwyydm48x2xpghynmm5n5",
+  "name": "Airgas Southwest, Inc.",
+  "sn": "XbGh8Xjji2J9",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "vjfjqd7rqsv8kivcegdkgem3w9af41s9",
+  "name": "Cardinal Health",
+  "sn": "OHLtS7Tke9KQ",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "lqb4d5l83qr8p7kvxymgh4b85urqtv7g",
+  "name": "Kroger",
+  "sn": "yfeJ8qMXtG03",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "zve9f66otwv8e7yyuxqltsyfq4b6v5pe",
+  "name": "Dharma Research, inc.",
+  "sn": "vvXWyUiwsa2I",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "d7rta146yp1pgw1a1fkzylisu38pp6w7",
+  "name": "Nova Petroleum & Chemicals Corporation",
+  "sn": "nrrtct6LhtU8",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "sssu9u3cwczoo4moimaiyorz8jhcqmie",
+  "name": "ALL NATURAL DYNAMICS",
+  "sn": "3Ov1Hpne3hlj",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "05duapvt1ysyadps5qfncsm2dvvk5umv",
+  "name": "Sandoz Inc",
+  "sn": "pw5bNrWlBUEp",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "rfcn3vlwlvqmns2k7e5gihc7ttngptjm",
+  "name": "Virtus Pharmaceuticals",
+  "sn": "wQjtOKY0Gl0y",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "5f9l65kmbimcomtvroobq2nqw8h892rr",
+  "name": "Target Corporation",
+  "sn": "u6ADYrk9apZ4",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "i6mjjop76egknlzlqu80s4qq37vz7yso",
+  "name": "Sperian Eye & Face Protection Inc",
+  "sn": "1akHX1RAE4Ul",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "2j0wz98vbealg9pwv9vmqdn478zqixtn",
+  "name": "CleanWell",
+  "sn": "0TsghmLNXZ6L",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "qgiwl1qadfdcued501rqwrimwhhmzguc",
+  "name": "Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC",
+  "sn": "SG3312ZuYxVg",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "vwrscrcvaixiuf9r4xaucs6cujqp57gi",
+  "name": "Med-Health Pharma, LLC",
+  "sn": "o0u51IItwXZa",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "2zeqor0samdmqn3qzullkhzfoiei4f6z",
+  "name": "Apotex Corp.",
+  "sn": "ybHhi9jcXOY5",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "xvcf9iebdcnc7udnaf3s89mlqc9pltqx",
+  "name": "REMEDYREPACK INC.",
+  "sn": "noT27draLv9q",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "d90w1fxki14d2rgejq0d97cpdq8g9u9y",
+  "name": "Rebel Distributors Corp",
+  "sn": "Z4Sd4Fc9sDw2",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "peisiy2gb4w0fspy48vg93ogx875rsmg",
+  "name": "Aphena Pharma Solutions - Tennessee, LLC",
+  "sn": "5KW22M4NRbY0",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "yzv2sme5ov3wc6u7f8a80hl1eck50zk8",
+  "name": "WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",
+  "sn": "JJnO9DQfAzeu",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "4hixlz8v0p371bl4obp2yb64xc63vkn1",
+  "name": "Bryant Ranch Prepack",
+  "sn": "TGAxIFZ6EMM4",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "d3g32hnylu2xt8xkh8yw8fm41zvs1jwu",
+  "name": "Medi-Physics Inc.",
+  "sn": "UmOKnOKJ7FQD",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "v2ycfsdie6igljqkq9wj3vg5lz0cswox",
+  "name": "Best Choice (Valu Merchandisers Company)",
+  "sn": "p8Ec22xExATD",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "z0o6aycodafnv6cv4tm92s9xslb1md6n",
+  "name": "American Sales Company",
+  "sn": "zHGRLSwxnRck",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "v468bq3t2lrnlvphob53wt98mytokvrw",
+  "name": "State of Florida DOH Central Pharmacy",
+  "sn": "KeL8MqsJQfeN",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "6u56r7bp9bmacrsdbwviqs04fp3pthli",
+  "name": "Physicians Total Care, Inc.",
+  "sn": "cd9lxPO8JJMy",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "m7ptlv3bm5hruof785eyxk53xav5z0ja",
+  "name": "West-ward Pharmaceutical Corp",
+  "sn": "19nNk95haxwK",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "ej462tf1y5xkpor84jkg0aacvayhh5sx",
+  "name": "Medline Industries, Inc.",
+  "sn": "rwL9G5x3rgK8",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "8lpeqn54za8vmkcf7802l3g0nnsrwl89",
+  "name": "Apotheca Company",
+  "sn": "ZDxW4SCv2WLf",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "089z3z7fkc9g61qrhvf5qkblk6xubt86",
+  "name": "American Health Packaging",
+  "sn": "qhA4mxmZVQMy",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "leq3p73o3b25h94qeapngp9uiaqkl0i4",
+  "name": "WestAir Gases & Equipment, Inc",
+  "sn": "sch6z8D5CLaV",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "5pp3zniaulp3n92i1ly0w8dvz4d650nq",
+  "name": "A-S Medication Solutions LLC",
+  "sn": "GdnDmsgv0sa3",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "17r3d2pc1ld9gjj7oehi7sgo62avojzp",
+  "name": "Perrigo New York Inc",
+  "sn": "i7rgNQMq1OAN",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "lxp19bwces24mt91wj6efp2frc81jx7f",
+  "name": "Alaven Pharmaceutical LLC",
+  "sn": "Sm3CCkBMCGJ4",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "nm1izoyx68tumbi9tp2atbd5v8npqf5h",
+  "name": "Major Pharmaceuticals",
+  "sn": "dmdp8odwejim",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "rtg8to4u5fmal8i62xfzc9opguoqqv0b",
+  "name": "A-S Medication Solutions LLC",
+  "sn": "E8BdGI0kBndV",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "16vpg4ncc8p9tf348vqv3hbdac1kakzi",
+  "name": "FSi, Inc.",
+  "sn": "OZyC9XPwKvd0",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "7jhw3hx78s4q8qjk29cntenb7wj73a3w",
+  "name": "Navajo Manufacturing Company Inc.",
+  "sn": "HhnaIXzof1b4",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "ye35oeqrfq4wu0wr1itgwslkql4j8afq",
+  "name": "UNITED EXCHANGE CORP",
+  "sn": "UXZi1CrHVGTH",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "wwfliafrocut9twq5fk1eoc5mpczfr40",
+  "name": "Amway Corp",
+  "sn": "FXKlfJ8q0HPH",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "51u8glh57wsv38sscuo96ootcd3dvjqp",
+  "name": "Genesis Pharmaceuticals",
+  "sn": "E9QfGgKRftwz",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "b5ux9v7w99i9wmznhb3ehtkbwuxt41ms",
+  "name": "REMEDYREPACK INC.",
+  "sn": "11VFC4j0R1ij",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "rgy2s2srvt3q9nbf25afvtk351jazb52",
+  "name": "Mylan Pharmaceuticals Inc.",
+  "sn": "lZpBHOvGQ0FZ",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "aqykj8izu1f5surt0qaouemf7wyp4woe",
+  "name": "McKesson",
+  "sn": "e6YoCBc1vNbv",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "nhio9do3hnr7d97beahbk2xzdh6dirzn",
+  "name": "ESTEE LAUDER INC",
+  "sn": "r1lwhq7XC8H5",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "nmtnuknd2qzu2z3sxmag70fwn8ft21ux",
+  "name": "Ecolab Inc.",
+  "sn": "qXE1mDyjdG6Z",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "1rh1nvgn83dsss9r3kubfjp42cwn4r49",
+  "name": "ARMY AND AIR FORCE EXCHANGE SERVICE",
+  "sn": "WfU51d1o5LCf",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "7evpj1h96iw3zk80xz20uph8lseglmo0",
+  "name": "REMEDYREPACK INC.",
+  "sn": "FStcRdHSPhCw",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "e8c5d5sa73urfl9nrbh9jemrihc7mq0p",
+  "name": "SHISEIDO AMERICAS CORPORATION",
+  "sn": "fgGxnKG7YM0C",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "wdwvlbiczdeeotgzkhz38wyeid2bc16v",
+  "name": "Bryant Ranch Prepack",
+  "sn": "UdovCaLk76eh",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "v23oktlhlrokfjpnqglqxjuxc8vpd16w",
+  "name": "Rebel Distributors Corp",
+  "sn": "LvIoiKGpAXOK",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "o50jbn967c7vw3raidw635hby9hlcs2l",
+  "name": "Energetix Corp",
+  "sn": "QZOVj7ewtHCt",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "ejg7dlucl45exsom61j6nkws4ximjqnu",
+  "name": "Global Pharmaceuticals, Division of Impax Laboratories Inc.",
+  "sn": "dYsqOcypxPDK",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "x7vcdudprnb8kpkccn0p4u7pw7av7ydj",
+  "name": "Preferred Pharmaceuticals, Inc.",
+  "sn": "CXp415wQP5r4",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "aoaq07baus94lrw2y2yark854hwp7ck0",
+  "name": "Boots Retail USA Inc",
+  "sn": "sCkne4FVIFfp",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "vutlazfcfsxu4tl32eitk2ufficrc34b",
+  "name": "Zenith Medicosm SL",
+  "sn": "4F5GBMTAPv3m",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "qaojlt3qysyee4dhh8h64xvj1x2lrij5",
+  "name": "Kinray, Inc.",
+  "sn": "sGNfV9T1f5C5",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "tdg02vdzyhpzvp8drhvgi1fbbzx8feji",
+  "name": "Natural Health Supply",
+  "sn": "A44SrzRHj4qy",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "m2cwujrlbaor61pshvqvbij845rf66da",
+  "name": "Wal-Mart Stores Inc",
+  "sn": "CZ4yqPWAexCV",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "kn5qkkmyc3rx42bvbvnmpr01fnft2dus",
+  "name": "Cardinal Health",
+  "sn": "fq56TCfLKnsO",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "cbwfwp6zisq1ncu4dsqzgohuikm3e4t6",
+  "name": "Mckesson",
+  "sn": "EZny01vAwYKD",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "46jbbv19mf23k4u4519638un3b41kybf",
+  "name": "Dr. Fresh, Inc.",
+  "sn": "ygEe1zXyniqJ",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "5ozdbm1126dh2qhs223kwvtzey2qgg4v",
+  "name": "Golden State Medical Supply, Inc.",
+  "sn": "0SUliuLvTIzO",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "jgng6nc76t4cb7bximhvl5kb01z24gb2",
+  "name": "Astellas Pharma US, Inc.",
+  "sn": "MzLiMrXvuHQo",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "jwniepe0ma7yhskjbo5c8oapb6vu8xlj",
+  "name": "HU-FRIEDY MFG. CO., INC.",
+  "sn": "3YkAZeFclfXJ",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "2oh39wi3ricfr4ugr1awfpt0yy66x7da",
+  "name": "Rising Pharmaceuticals, Inc.",
+  "sn": "umZQS9VJO5b8",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "iijyxz083sl5y7i4yubc2fwfki94c7yf",
+  "name": "ProStat First Aid",
+  "sn": "cAlX9Aa2h2m5",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "hpoy7rsbafn6f9eyeuqv98bdz1vx42jt",
+  "name": "Mylan Pharmaceuticals Inc.",
+  "sn": "bnWealY5Ju2T",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "0ylh06galwcxclmke68q91xmu81yosal",
+  "name": "Guthy-Renker LLC",
+  "sn": "HsWXEayLYINa",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "smn5b3aeht9tq2zql7arugt3b9zkc3k5",
+  "name": "EQUATE (Walmart Stores, Inc.)",
+  "sn": "W8TagDlUrFuQ",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "b8mo20soy9p4glno29n5oxrsb6mtp26r",
+  "name": "Physicians Total Care, Inc.",
+  "sn": "BrKwoKGRxlyZ",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "xmkxbwic45np1b40czxd57sjs40qwf89",
+  "name": "Watson Laboratories, Inc.",
+  "sn": "X1iZsbfUsa6Z",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "tq74qp0yvanh1td1kbd2hwwrk1j4w7dt",
+  "name": "G & W LABORATORIES, INC.",
+  "sn": "EUcmr1K8EDoU",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "sefxd6u5yluvp0lxwyvhxeo9z9yarygq",
+  "name": "Mylan Institutional LLC",
+  "sn": "spy82nVVwZVC",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "3ujopawujllkckf8xqwlzbwp5z9oj6ln",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "CPmu1QNo1V7d",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "3jo53srxpuk8r4rs98bfnsfeqjhtrggq",
+  "name": "Apotheca Company",
+  "sn": "nQmD4PiEmhzk",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "y63us2qi6djkhalasz691lx8vhpiuvsf",
+  "name": "Procter & Gamble Manufacturing Company",
+  "sn": "oT0RBeUpWPR8",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "hsjszn0d5s7bzy4qq9c5n1g77pzdthmt",
+  "name": "REMEDYREPACK INC.",
+  "sn": "sdLLLAQM39gR",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "uufeke8dewdgl6vz6zijlhoh4t2dau6w",
+  "name": "Artesa Labs, LLC",
+  "sn": "yS08AEw3Xpqk",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "7gr6g86cgp3mlyrkc6j1jh0r63osl9zs",
+  "name": "Paddock Laboratoratories, LLC",
+  "sn": "W1b6iRe6uHOn",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "pfiaixljahu75f4e0zf0nlgm7yxcpm4s",
+  "name": "Quinnova Pharmaceuticals, LLC",
+  "sn": "LuTHLeP25sSH",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "z5dq9kw9j1i1kk45zmuqox53pnt73xa7",
+  "name": "Major",
+  "sn": "SiagYm2YgYah",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "kanm0b96dt1kn7rlt417jvn1jpjdvkfx",
+  "name": "Teva Select Brands",
+  "sn": "2ciY24HKQJXQ",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "o2yicjybrd4ieyq48k0dq0vc47ks7cob",
+  "name": "UCB, Inc.",
+  "sn": "HMduljPBYfNI",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "lbw7z56y7tzzrseofbq8bszcud3k2d4u",
+  "name": "REMEDYREPACK INC.",
+  "sn": "z2Rp8XEoY7Tp",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "awr3nqyjxkyexet6uq3ng97599m1ibw8",
+  "name": "Inel Cosmetics Co., Ltd.",
+  "sn": "uDqIQpkjJ8g7",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "glnns8prqcyeoncuuvhchusqzspb16h9",
+  "name": "Genzyme Corporation",
+  "sn": "y2qU0YmPiRLs",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "p22pwe0owor2f6fws94isv9p5vu8xl44",
+  "name": "The Body Shop Wake Forest",
+  "sn": "AxUwqqPZ5qaA",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "brs4u2qireqd317ezs5qsqxlgssmo5xs",
+  "name": "Jubilant HollisterStier LLC",
+  "sn": "yQmpFt6YuyUm",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "lkzc89qp5iamc8dis4v87xjo49xcvh8d",
+  "name": "Uriel Pharmacy Inc.",
+  "sn": "iByCrJ1O7ivG",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "x5hi6sfi6cgmwr255vp0jlesgjc00fa4",
+  "name": "Sanum Kehlbeck GmbH & Co. KG",
+  "sn": "D6Sn6SSG5xip",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "y5j6emkw7sy6nmtiahm7wrrf52r0lu6b",
+  "name": "ALK-Abello, Inc.",
+  "sn": "X4seG81OrDQ6",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "xl8kiuyuyf1zjn8fnzdhv6ulol071gbh",
+  "name": "Apotheca Company",
+  "sn": "PiiPO8wE2JQu",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "4c7x4rk4sgzemciqdkn0os4m92lfylge",
+  "name": "Rebel Distributors Corp",
+  "sn": "721F7I33Ltdr",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "39p4il9uywmuowh541yj07dmfxrdc4fh",
+  "name": "Allermed Laboratories, Inc.",
+  "sn": "DzZAdXpPMiLq",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "sa5aj9o4e0up9t15zwq1dt62aenw5ec7",
+  "name": "Uriel Pharmacy Inc.",
+  "sn": "X88uh2QWuFPK",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "nwped59al8if95wuc7b0t4ei9tqt1x48",
+  "name": "Unichem Pharmaceuticals (USA), Inc.",
+  "sn": "KrcM3aBIJSkT",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "34hx32jdzyq44l7zo3s1a0innjkhyfl4",
+  "name": "Cardinal Health",
+  "sn": "9JC5P6APsZQp",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "0m4wrfq9yx8ep9z6j778gknpmlxjcqfj",
+  "name": "Contract Pharmacy Services-PA",
+  "sn": "bROqcmHKY3ru",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "f8i5th1sdojilg6j8ugb33axt9lyq92u",
+  "name": "STAT Rx USA LLC",
+  "sn": "D1wke5OJsfNm",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "309znt2mojktfci7ld6ffhatu3vz93x9",
+  "name": "Global Pharmaceuticals, Division of Impax Laboratories Inc.",
+  "sn": "OVFYpSJC8kZt",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "bxx57gwoi6muj49128naa7y8xw9h0sm6",
+  "name": "Soza Clinic",
+  "sn": "7W2tB1KiveHq",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "5is860m9o53dwbemt9p8ia2s4jmyojlb",
+  "name": "Bath & Body Works, Inc.",
+  "sn": "B5Ukjgo9JnbU",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "2cfql7l54ct86kng6iol88qvrd25owm3",
+  "name": "Homeocare Laboratories",
+  "sn": "DvUAeCnYM7R0",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "vksdhxy6e7akst2f4z7e7844b9gnfn87",
+  "name": "ReadyMeds",
+  "sn": "LeDzNgalthDD",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "70nvv48loeluvj47r5dpi2j9dvt462vj",
+  "name": "Mission Hills S.A de C.V",
+  "sn": "T0Wy5bI7v8ik",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "y827qf3w668w45020eryhraorl8iph1h",
+  "name": "Merck Sharp & Dohme Corp.",
+  "sn": "YPl188oEfbV1",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "piyquduydqsnehhcp718dfnuufuvk57d",
+  "name": "ALK-Abello, Inc.",
+  "sn": "poYIZN60JGLk",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "2kuhc88jx87dij28fpoynyv3588bh0iw",
+  "name": "GNLD International",
+  "sn": "LyGFmjzb9blq",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "6zv2vo1qgn93uwmupmez8zuunlp0gnyd",
+  "name": "Cardinal Health",
+  "sn": "V7eNRFWNdhcB",
+  "status": "repair",
+  "type": "weegschaal"
+},
+{
+  "_id": "jgchojvpmas4tv5k25z2m0jyf86gxu3n",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "ih8lYa7naSJT",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "utjf46901dpj1bm87bv9zr3z1w21qsd4",
+  "name": "REMEDYREPACK INC.",
+  "sn": "8dkykpV1A0h6",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "y0hxz69xs93wbk1libshfvrdugy56afp",
+  "name": "Amphastar Pharmaceuticals, Inc.",
+  "sn": "TQ2z27xUJeKb",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "erye2ffxvvgpww4ov9koi2np1ntdiybg",
+  "name": "Physicians Total Care, Inc.",
+  "sn": "gAaLk0dLxjzd",
+  "status": "recall",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "80glaqfzci0eopjkn61pawtip4e6qvw6",
+  "name": "Greenstone LLC",
+  "sn": "PO8yd4jpEosh",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "vzslow95d1kv30j828a9bjvz7idy8ji0",
+  "name": "PRESCRIPTIVES INC",
+  "sn": "cDugUb1dLHK0",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "qefriov1yjeg21eoexws98e4ojdjkjsn",
+  "name": "Genentech, Inc.",
+  "sn": "XprCUdISspUv",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "52tj272udgbnl20qrvv1hbgau69nv2cq",
+  "name": "Apotex Corp.",
+  "sn": "9112ceXx2ByS",
+  "status": "cleaning",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "q8qrh9gp90ajiqpvj5t4m5k4ossi1ip9",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "F3QXgqwleyBf",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "8r37mw3jj2satx46s1japjtjhz866y6u",
+  "name": "Rebel Distributors Corp",
+  "sn": "eruJfoBTJMLd",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "cb4050gt8l3lmthjm8gqghum6aom4e5s",
+  "name": "REMEDYREPACK INC.",
+  "sn": "VFXCUTUPjLmi",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "ip2w9yb5l8h4op7ir42k9orkbnuosov9",
+  "name": "Time-Cap Labs, Inc",
+  "sn": "0zuefd7qdvlv",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "ctt05mnz667iympngu6xs1t2upxrzwq6",
+  "name": "Eduard Gerlach GmbH",
+  "sn": "JogMj0P4MSQ0",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "1o10pb1z9ubxnxudo57412o6n5q669ju",
+  "name": "Wyeth Pharmaceuticals Inc., a subsidiary of Pfizer Inc.",
+  "sn": "cxcusWiBIYaf",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "rwwl0sm54wvt1ubhdlzo0fv6w5p2fnif",
+  "name": "McKesson Corporation Valu-Rite",
+  "sn": "SLdhvGea3jmK",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "vzrnc901xe3utjleq1q7dy775gjov9ce",
+  "name": "Major Pharmaceuticals",
+  "sn": "O01yjRHkdsjY",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "ssv39toib7mawb4zubs8pybtpnku6csa",
+  "name": "Hospira, Inc.",
+  "sn": "8aTH9ouNT4Dg",
+  "status": "cleaning",
+  "type": "weegschaal"
+},
+{
+  "_id": "8lkf6fwj2fd1kxvqohg9vu5rvmorb1gs",
+  "name": "Unit Dose Services",
+  "sn": "vIj5wWDZE5aa",
+  "status": "repair",
+  "type": "thermometer"
+},
+{
+  "_id": "tpvtzzd6veveivd294tcdwjmzk86ioap",
+  "name": "Major Pharmaceuticals",
+  "sn": "8xkIdUYQa7sf",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "9caql5nqr3p91zhzu7tz3bmoh4hmcbjx",
+  "name": "HyVee Inc",
+  "sn": "DOD0tKVEX2Hu",
+  "status": "recall",
+  "type": "thermometer"
+},
+{
+  "_id": "opkzoa8v0xsgssgvjggw9z2m52y7a960",
+  "name": "Kroger Company",
+  "sn": "o462ZbvxS6ex",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "t8afk4qs8ti20ya56xt895gktfz2ugnd",
+  "name": "Gadis Ingenious Gadgets Inc.",
+  "sn": "ZKfyUa1SooJ0",
+  "status": "cleaning",
+  "type": "thermometer"
+},
+{
+  "_id": "i2ldxe3lb8fmasfbj1zpggeqq0utfc3g",
+  "name": "DZA Brands LLC",
+  "sn": "D79M9MiuWRTR",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "rtjc855r4nu4h7ve3vdsqflnqxwwq3dt",
+  "name": "LUPIN PHARMA",
+  "sn": "iOMCFazbMDod",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "6k96g0ylutmp7vb870fxkofh1tqde9iv",
+  "name": "IVAX Pharmaceuticals, Inc.",
+  "sn": "UfuSdV2XATAj",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "9lmgja6pbypqzhxrs5gs3z0va1motzmv",
+  "name": "Meijer Distribution Inc",
+  "sn": "MOJsx9F2NLYU",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "a5xs347og6rzaj89vx4u65frzh8532w3",
+  "name": "Mylan Institutional LLC",
+  "sn": "GI0n5WdJV8j7",
+  "status": "recall",
+  "type": "weegschaal"
+},
+{
+  "_id": "3cx8sno2usynpvhxhs2hqhfaxw26zmsb",
+  "name": "Enzymatic Therapy, LLC",
+  "sn": "IwlhAvILMJeY",
+  "status": "working",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "zv6i9rsobhsufeliz6a96dlfj2a8n0tr",
+  "name": "Afaxys Inc.",
+  "sn": "0ASgfkwIxYQJ",
+  "status": "working",
+  "type": "weegschaal"
+},
+{
+  "_id": "b4719041kri6ehh6uuzorat7or99v8w3",
+  "name": "Mckesson Contract Packaging",
+  "sn": "lhEEjQZckQ5s",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "2b5awldv1juusp5tu7fpz8yibyeyljlc",
+  "name": "SHISEIDO CO., LTD.",
+  "sn": "IWXyQApfneKW",
+  "status": "working",
+  "type": "thermometer"
+},
+{
+  "_id": "a06367a99ui0ps67b8eeilbgi489sw3z",
+  "name": "H E B",
+  "sn": "zP3JInMsB1ZF",
+  "status": "repair",
+  "type": "bloeddrukmeter"
+},
+{
+  "_id": "k9xl5wm03v1airje06zr9gmu78iwe585",
+  "name": "Nelco Laboratories, Inc.",
+  "sn": "CkfHpRhiyiRr",
+  "status": "repair",
+  "type": "weegschaal"
+},
