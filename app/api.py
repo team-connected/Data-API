@@ -72,7 +72,7 @@ def get_metrics(value):
                 metric = db.Metric.find({"_id":{"$in":metrics["metrics"]}})
                 return dumps(metric), 200, {'Content-Type': 'application/json; charset=utf-8'}
             else:
-                jsonify({"getMetrics" : "noMetricsFound"}), 204, {'Content-Type': 'application/json; charset=utf-8'}
+                return jsonify({"getMetrics" : "noMetricsFound"}), 204, {'Content-Type': 'application/json; charset=utf-8'}
         else:
             return jsonify({"getMetrics" : "userNotFound"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
