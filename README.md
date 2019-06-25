@@ -66,8 +66,11 @@ Implemented will be marked with :heavy_check_mark:
 * **bloeddruk**: Value of the Blood
 * **gewicht**: Value of the Weight
 * **temperatuur**: Value of the Temperature
+* **pijnscore**: Value of the Pain Score
+* **device_bloeddruk**: Device used to measure Blood
+* **device_gewicht**: Device used to measure Weight
+* **device_temperatuur**: Device used to measure Temperature
 * **timestamp**: Timestamp (Required)
-* **device_id**: Device used to measure (Required)
 * **nurse_id**: Nurse that measured (Required)
 * **comment**: Optional comment
 
@@ -96,7 +99,7 @@ curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Microlife Watch
 curl -i -H "Content-Type: application/json" -X POST -d '{"firstname":"Hans", "lastname":"Janssen", "email":"hjanssen@umc.nl", "department":"IC"}' http://umc-api.maartenmol.nl:5000/api/v1/nurse/
 ```
 ```
-curl -i -H "Content-Type: application/json" -X POST -d '{"metric_type":"bloeddrukdruk", "timestamp":"2019-06-04T09:46:59+00:00", "device_id":"59ce02a3e87d42f3b467c161502c824e", "nurse_id":"98b415b75d8849d38be80521efa25d20", "value":"37.5", "comment":"This is a comment"}' http://umc-api.maartenmol.nl:5000/api/v1/metric/patient=697b76fa3c6b42a1ab4aa281c88e4227
+curl -i -H "Content-Type: application/json" -X POST -d '{"bloeddruk":"120/80", "timestamp":"2019-06-04T09:46:59+00:00", "device_bloeddruk":"59ce02a3e87d42f3b467c161502c824e", "nurse_id":"98b415b75d8849d38be80521efa25d20", "value":"37.5", "comment":"This is a comment"}' http://umc-api.maartenmol.nl:5000/api/v1/metric/patient=697b76fa3c6b42a1ab4aa281c88e4227
 ```
 ```
 curl -i -H "Content-Type: application/json" -X POST -d '{"metric_type":"", "timestamp":"2019-06-04T09:46:59+00:00", "device_id":"59ce02a3e87d42f3b467c161502c824e", "nurse_id":"98b415b75d8849d38be80521efa25d20", "value":"", "comment":"This is a comment"}' http://umc-api.maartenmol.nl:5000/api/v1/metric/patient=697b76fa3c6b42a1ab4aa281c88e4227

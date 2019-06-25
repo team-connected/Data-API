@@ -209,18 +209,29 @@ def create_metric(id):
         # Do not require the following fields:
         if "bloeddruk" in data:
             bloeddruk = data['bloeddruk']
+            device_bloeddruk = data['device_bloeddruk']
         else:
             bloeddruk = 0
+            device_bloeddruk = ' '
         
         if "gewicht" in data:
             gewicht = data['gewicht']
+            device_gewicht = data['device_gewicht']
         else:
             gewicht = 0
+            device_gewicht = ' '
         
         if "temperatuur" in data:
             temperatuur = data['temperatuur']
+            device_temperatuur = data['device_temperatuur']
         else:
             temperatuur = 0
+            device_temperatuur = ' '
+
+        if "pijnscore" in data:
+            pijnscore = data['pijnscore']
+        else:
+            pijnscore = 0
 
         if "comment" in data:
             comment = data['comment']
@@ -229,7 +240,6 @@ def create_metric(id):
 
         # Require these fields
         timestamp = data['timestamp']
-        device_id = data['device_id']
         nurse_id = data['nurse_id']
         
         uid = uuid.uuid4().hex
@@ -239,8 +249,11 @@ def create_metric(id):
                 "bloeddruk" : bloeddruk,
                 "gewicht" : gewicht,
                 "temperatuur" : temperatuur,
+                "pijnscore" : pijnscore,
+                "device_bloeddruk" : device_bloeddruk,
+                "device_gewicht" : device_gewicht,
+                "device_temperatuur" : device_temperatuur,
                 "timestamp" : timestamp,
-                "device_id" : device_id,
                 "nurse_id" : nurse_id,
                 "comment" : comment
             })
@@ -338,6 +351,22 @@ def update_metric(id):
             if "temperatuur" in data:
                 temperatuur = data['temperatuur']
                 newValue = { "temperatuur": temperatuur }
+                newValues.update(newValue)
+            if "device_bloeddruk" in data:
+                device_bloeddruk = data['device_bloeddruk']
+                newValue = { "device_bloeddruk": device_bloeddruk }
+                newValues.update(newValue)
+            if "device_gewicht" in data:
+                device_gewicht = data['device_gewicht']
+                newValue = { "device_gewicht": device_gewicht }
+                newValues.update(newValue)
+            if "device_temperatuur" in data:
+                device_temperatuur = data['device_temperatuur']
+                newValue = { "device_temperatuur": device_temperatuur }
+                newValues.update(newValue)
+            if "pijnscore" in data:
+                pijnscore = data['pijnscore']
+                newValue = { "pijnscore": pijnscore }
                 newValues.update(newValue)
             if "timestamp" in data:
                 timestamp = data['timestamp']
@@ -443,17 +472,6 @@ def delete_patient(value):
             return jsonify({"deletePatient" : "success"}), 200, {'Content-Type': 'application/json; charset=utf-8'}
         else:
             return jsonify({"deletePatient" : "patientNotFound"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
-    except Exception as e:
-        return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
-
-#Define EASTEREGG
-@app.route('/api/v1/seminar/SpeechRecognitionIn1962=<value>', methods=['GET'])
-def get_seminar(value):
-    try:
-        if value.lower() == "shoebox":
-            return "Correct! http://bit.ly/seminar-spoorwegen", 200, {'Content-Type': 'application/json; charset=utf-8'}
-        else:
-            return "Helaas! Probeer het opnieuw.", 404, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
 
