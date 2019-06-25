@@ -209,23 +209,32 @@ def create_metric(id):
         # Do not require the following fields:
         if "bloeddruk" in data:
             bloeddruk = data['bloeddruk']
-            device_bloeddruk = data['device_bloeddruk']
         else:
             bloeddruk = 0
+
+        if "device_bloeddruk" in data:
+            device_bloeddruk = data['device_bloeddruk']
+        else:
             device_bloeddruk = ' '
         
         if "gewicht" in data:
             gewicht = data['gewicht']
-            device_gewicht = data['device_gewicht']
         else:
             gewicht = 0
+
+        if "device_gewicht" in data:
+            device_gewicht = data['device_gewicht']
+        else:
             device_gewicht = ' '
         
         if "temperatuur" in data:
             temperatuur = data['temperatuur']
-            device_temperatuur = data['device_temperatuur']
         else:
             temperatuur = 0
+            
+        if "device_temperatuur" in data:
+            device_temperatuur = data['device_temperatuur']
+        else:
             device_temperatuur = ' '
 
         if "pijnscore" in data:
