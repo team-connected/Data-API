@@ -48,7 +48,7 @@ def get_patients():
 @app.route("/api/v1/nurse/", methods=['GET'])
 def get_nurses():
     try:
-        nurse = db.Nurse.find().sort( { '$natural' : -1 } )
+        nurse = db.Nurse.find().sort([( '$natural', -1 )] )
         return dumps(nurse), 200, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
