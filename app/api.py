@@ -381,10 +381,6 @@ def update_metric(id):
                 timestamp = data['timestamp']
                 newValue = { "timestamp": timestamp }
                 newValues.update(newValue)
-            if "device_id" in data:
-                device_id = data['device_id']
-                newValue = { "device_id": device_id }
-                newValues.update(newValue)
             if "nurse_id" in data:
                 nurse_id = data['nurse_id']
                 newValue = { "nurse_id": nurse_id }
