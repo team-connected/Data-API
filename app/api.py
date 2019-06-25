@@ -39,7 +39,7 @@ def index():
 @app.route("/api/v1/patient/", methods=['GET'])
 def get_patients():
     try:
-        patient = db.Patient.find()
+        patient = db.Patient.find().sort([( '$natural', -1 )] )
         return dumps(patient), 200, {'Content-Type': 'application/json; charset=utf-8'}
     except Exception as e:
         return dumps({'error' : str(e)}), 500, {'Content-Type': 'application/json; charset=utf-8'}
@@ -68,7 +68,7 @@ def get_metrics(value):
     try:
         if db.Patient.count_documents({ "_id" : value }, limit = 1) == 1:
             metrics = db.Patient.find_one({ "_id" : value },{"metrics":1})
-            metric = db.Metric.find({"_id":{"$in":metrics["metrics"]}})
+            metric = db.Metric.find({"_id":{"$in":metrics["metrics"]}}).sort([( 'timestamp', -1 )] )
             return dumps(metric), 200, {'Content-Type': 'application/json; charset=utf-8'}
         else:
             return jsonify({"getMetrics" : "userNotFound"}), 404, {'Content-Type': 'application/json; charset=utf-8'}
