@@ -1,4 +1,5 @@
 # Import required dependencies
+
 from flask import Flask, jsonify, abort, make_response, request
 from pymongo import MongoClient
 from bson.json_util import dumps
@@ -15,7 +16,7 @@ db_name = os.getenv("db_name", "EPD")
 ascii_banner = pyfiglet.figlet_format("UMC Data-API")
 print(ascii_banner)
 print("Starting API Server")
-print("API Server Version: V1.0")
+print("API Server Version: V1.1")
 print("Developed by: Haydn Felida, Jeroen Verkerk, Sam Zandee, Shaniah Arrias, Maarten Mol. (All rights reserved)")
 
 #Setup MongoDB Client
