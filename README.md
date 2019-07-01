@@ -5,7 +5,7 @@
 ```docker run --name data-api -d -e conUri="mongodb:27017" -e db_name="EPD" -p 5000:5000 teamconnected/data-api```
 
 ### Environment Flags
-| Flag | Description |
+| Flag | Description | Example |
 | ------------- | ------------- | ------------- |
 | conUri | URI to the MongoDB Cluster Set or Host | Example: "'mongodb://host1,host2,host3', replicaSet='rs0'" or "mongodb:27017" |
 | db_name | Name of the Database to use | Example: EPD |
